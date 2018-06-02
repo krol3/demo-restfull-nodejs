@@ -1,0 +1,22 @@
+{
+  "name": "express-mongo-crud",
+  "version": "1.0.0",
+  "description": "Stack node.js mongodb express.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --report spec",
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.1",
+    "express": "~4.15.4",
+    "mongoose": "^5.1.1",
+    "request": "~2.82.0",
+    "validator": "^10.2.0"
+  },
+  "author": "Carol Valencia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  }
+}
